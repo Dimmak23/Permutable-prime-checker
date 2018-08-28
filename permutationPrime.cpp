@@ -158,11 +158,11 @@ class researchPrime
 	// Method that show to user options of the program
 	void openDialog(){
 		// message to user
-		/*std::cout << "\nChoose your goal of research:"
+		std::cout << "\nChoose your goal of research:"
 				  << "\n\n(s/S) - for varifing single number"
 				  << " being permutate prime,"
 				  << "\n(r/R) - for showing all permutate primes "
-				  << "in the given range.\n\n";*/
+				  << "in the given range.\n\n";
 		// answer from user
 		std::cin >> answer;
 	}
@@ -261,7 +261,7 @@ class researchRange : protected researchNumber
 	void openDialog(){
 		std::cout << "\nEnter first number of range here: ";
 		std::cin >> lRange;
-		std::cout << "\nEnter first number of range here: ";
+		std::cout << "\nEnter last number of range here: ";
 		std::cin >> rRange;
 	}
 
